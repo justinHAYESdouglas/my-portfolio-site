@@ -145,13 +145,12 @@
 
     <div id = "contact-wrapper">
       <p>Contact Me</p>
-      <from class = "contact-form" action = "contactform.php" method = "post">
-        <input type = "text" name = "name" placeholder="Name">
-        <input type = "text" name = "mail" placeholder="E-mail adress">
-        <input type = "text" name = "subject" placeholder="Subject">
+      <form class = "contact-form" action="scripts/contactform.php" method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="email" placeholder="Email" >
         <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit" name="submit">Send</button>
-      </from>
+        <input type="submit" value="Send"></input>
+     </form>
     </div>
   </main>
 
