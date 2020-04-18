@@ -1,0 +1,146 @@
+#resume-wrapper{
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  border-top: 10px dashed #1f0852;
+  border-bottom: 10px dashed #1f0852;
+}
+
+#resume-container{
+  width: 50%;
+  height: 100vh;
+  background: url("../images/resume-bgi.png") center;
+  background-size: cover;
+ 
+  border-right: 6px solid #1f0852;
+}
+
+#resume-container img{
+  width: 70%;
+  display: block;
+  margin: auto;
+  
+}
+
+#skills-container{
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  background: url("../images/skills-bgi.png") center no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+#skills-container ul{
+  width: 50%;
+  margin: auto;
+}
+#skills-container li:first-child{
+ margin-top: 40%;
+ list-style: none;
+ border-bottom: 6px solid #1f0852;
+ font-size: 1.4em;
+}
+
+#skills-container li:last-child{
+  margin: 10% auto auto auto;
+  list-style: none;
+}
+
+#skills-container li{
+  font-size: 1.3em;
+  padding: 3px;
+  text-indent: 1em;
+}
+
+#skills-container a{
+  width: 100%;
+  padding: 7px;
+  border: 4px solid #1f0852;
+  border-radius: 20px;
+  color: white;
+  font-size: .8em;
+}
+
+#skills-container a:hover{
+  transition: .3s ease;
+  background-color: #1f0852;
+}
+
+@media screen and (min-width: 0px) and (max-width: 568px){
+  #resume-wrapper{
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  #resume-container{
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 6px solid #1f0852;
+  }
+
+  #resume-container img{
+    width: 90%;
+  }
+
+  #skills-container{
+    width: 100%;
+    height: auto;
+  }
+  
+  #skills-container ul{
+    width: 100%;
+    list-style: none;
+  }
+
+  #skills-container li{
+    text-align: center;
+  }
+
+  #skills-container li:first-child{
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 1023px){
+  #resume-wrapper{
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  #resume-container{
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 6px solid #1f0852;
+  }
+
+  #resume-container img{
+    width: 90%;
+  }
+
+  #skills-container{
+    width: 100%;
+    height: auto;
+  }
+  
+  #skills-container ul{
+    width: 100%;
+    list-style: none;
+  }
+
+  #skills-container li{
+    text-align: center;
+  }
+
+  #skills-container li:first-child{
+    margin-top: 5%;
+  }
+
+  #skills-container li:last-child{
+    margin: 10% auto auto auto;
+    list-style: none;
+  }  
+}

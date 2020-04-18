@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "css/main.css">
+  <link rel = "stylesheet" href = "css/home_styles.css">
+  <link rel = "stylesheet" href = "css/nav_styles.css">
+  <link rel = "stylesheet" href = "css/project_styles.css">
+  <link rel = "stylesheet" href = "css/resume_styles.css">
+  <link rel = "stylesheet" href = "css/contact_styles.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src = "scripts/nav_scripts.js"></script>
+  <script src = "scripts/project_scripts.js"></script>
+  <script src = "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src = "scripts/particles.json"></script>
+  <link rel = "icon" type = "image/png" href = "images/portfolio-icon.png" sizes = "180x180">
+  <title>Hire Justin!</title>
+  
+</head>
+<body>
+  <main>
+    <div id = "home-wrapper">
+      <header>
+        <div id ="logo-container">
+          <img id = "logo" src = "images/logo.png" alt="Justin Channing Hayes Douglas">
+        </div>
+
+        <section id = "intro">
+          <h1>
+            Hello, I’m <span class = "blue-text">Justin</span>. I’m a <span class = "red-text">front-end</span>
+            web developer and designer based in Chicago.
+          </h1>
+  
+          <nav id = "home-nav">
+            <a href = "index.html"><img src = images/JCHD.png alt="JCHD">Home</a>
+            <button class = "to-proj"><img src = images/projects.png alt = "view projects button">Projects</button>
+            <button class = "to-res"><img src = images/resume.png alt = "view resume button">Resume</button>
+            <button class = "to-contact"><img src = images/contact.png alt = "contact button">Contact</button>
+          </nav>
+        </section>
+      </header>
+    </div>
+
+    <div id = "mobile-menu-btn-container">
+      <button><img src = "images/hamburger-exit.png" alt = "hamburger-exit"></button>
+      <button id = "burger"><img src = "images/hamburger-menu.png" alt = "hamburger-menu"></button>
+    </div>
+    
+    <nav id = "main-nav">
+      <button class = "to-home"><img src = images/JCHD.png alt="JCHD">Home</button>
+      <button class = "to-proj"><img src = images/projects.png alt = "view projects button">Projects</button>
+      <button class = "to-res"><img src = images/resume.png alt = "view resume button">Resume</button>
+      <button class = "to-contact"><img src = images/contact.png alt = "contact button">Contact</button>
+    </nav>
+
+    <div id = "project-wrapper">
+      <div id = "particles"></div>
+
+      <div class = "project-container">
+        <div class = "proj-container-content">
+          <img src = "images/WSAG-icon.png" class = "project-icon" alt = "JTP project icon" >
+          <p class = "container-description">An online art gallery for the student of Wright College</p>
+          <button class = "view-proj-btn">View Project & Details</button>
+        </div>
+        
+        <div class = "list-wrapper">
+          <button class = "close-proj-btn"><img src = "images/hamburger-exit.png" alt = "hamburger-exit"></button>
+          <a href="https://justinhayesdouglas.github.io/WSAG.github.io/"><img src = "images/WSAG-capture.png" alt = "Wright Student Art Gallery site"></a>
+          <ul>
+            <li><a href = "https://github.com/justinHAYESdouglas/WSAG.github.io" target = "_blank">View code on github</a></li>
+            <li><a href = "images/WSAG-fireframes(desktop).png" target = "_blank"> View  desktop wireframes</a></li>
+            <li><a href = "images/WSAG-fireframes(mobile).png" target = "_blank"> View mobile wireframes</a></li>
+            <li>Aditional Info<span class = "menu-inactive"> </span>
+              <p>The goal of this website is to create an easy to use repository of student art work that can be referenced and admired. At this moment, the art department and I are still tracking down students to get more artwork on the site. I am also training students on how to maintain and expand it. </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+       
+      <div class = "project-container" id = "middle-proj">
+        <div class = "proj-container-content">
+          <img src = "images/portfolio-icon.png" class = "project-icon" alt = "JTP project icon" >
+          <p class = "container-description">My portfolio website</p>
+          <button class = "view-proj-btn">View Project & Details</button>
+        </div>
+        
+        <div class = "list-wrapper">
+          <button class = "close-proj-btn"><img src = "images/hamburger-exit.png" alt = "hamburger-exit"></button>
+          <img src ="images/Portfolio-capture.png" alt = "Portfolio Website">
+          <ul>
+            <li><a href = "#">View code on github</a></li>
+            <li><a href = "images/portfolio-wireframes(desktop).png" target="_blank"> View desktop wireframes</a></li>
+            <li>Aditional Info<span class = "menu-inactive"> </span>
+              <p>This site is the culmination of all my skills as a developer. I believe I’ve stuck a great balance between usability and design for it. Additionally, Making this has given me so much more insight to UI/UX.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "project-container">
+        <div class = "proj-container-content">
+          <img src = "images/JTP-icon.png" class = "project-icon" alt = "JTP project icon" >
+          <p class = "container-description">My design for a sleek e-commerce website The pun came first.</p>
+          <button class = "view-proj-btn">View Project & Details</button>
+        </div>
+
+        <div class = "list-wrapper">
+          <button class = "close-proj-btn"><img src = "images/hamburger-exit.png" alt = "hamburger-exit"></button>
+           <a href = "https://justinhayesdouglas.github.io/Justin-In-Time-Pieces.github.io/index.html"><img src = "images/JTP-capture.png" alt = "Justin Time Pieces Website"></a>
+          <ul>
+            <li><a href = "https://github.com/justinHAYESdouglas/Justin-In-Time-Pieces.github.io" target = "_blank">View code on github</a></li>
+            <li><a href = "images/jtp-wireframes-desktop.png" target="_blank"> View  desktop wireframes</a></li>
+            <li><a href = "images/jtp-wireframes-mobile.png" target="_blank" > View mobile wireframes</a></li>
+            <li>Aditional Info<span class = "menu-inactive"> </span>
+              <p>Usability is arguably the most important aspect of web development, and its criminally overlooked. I wanted to make something that looks good, and is as easy to use as possible.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id = "resume-wrapper">
+      <div id = "resume-container">
+        <img src = "images/JustinHayesDouglasResume.png" alt = "Resume">
+      </div>
+
+      <div id = "skills-container">
+
+        <ul>
+          <li><h2>Skills</h2></li>
+          <li>Adobe Illustrator</li>
+          <li>Photoshop</li>
+          <li>Usability Testing</li>
+          <li>Wireframing</li>
+          <li>SEO</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li> <a href = "justinResume2020.pdf" target="_blank">Download My Resume</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id = "contact-wrapper">
+      <p>Contact Me</p>
+      <from class = "contact-form" action = "contactform.php" method = "post">
+        <input type = "text" name = "name" placeholder="Name">
+        <input type = "text" name = "mail" placeholder="E-mail adress">
+        <input type = "text" name = "subject" placeholder="Subject">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit" name="submit">Send</button>
+      </from>
+    </div>
+  </main>
+
+  <button id = "back-to-top" class = "to-home">^</button>
+
+  <footer>
+    <span class = "blue-text">Justin Channing</span> <span class = "red-text">Hayes Douglas</span>&#169; 2020. Thanks for visiting!
+  </footer>
+</body>
+
+<script>
+  particlesJS.load('particles', 'scripts/particles.json');
+</script>
+  <!--Hey, whats up man? This is my source code-->
+</html>

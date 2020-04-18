@@ -1,0 +1,173 @@
+#project-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.project-container{
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+#middle-proj{
+  border-right: 2px solid #1f0852;
+  border-left: 2px solid #1f0852
+}
+
+.project-icon{
+  width: 100%;
+  margin: 50% auto 7px auto;
+  display: block;
+  justify-content: center;
+}
+
+.container-description{
+  width: 100%;
+  margin-bottom: 7px;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.view-proj-btn{
+  margin: 25px auto auto auto;
+  padding: 7px;
+  display: block;
+  cursor: pointer;
+  background: none;
+  border: 4px solid #1f0852;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.view-proj-btn:hover{
+  transition: .3s ease;
+  background-color: #1f0852;
+
+}
+
+#particles{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  border: none;
+  z-index: -1;
+}
+
+.close-proj-btn{
+  width: 25px;
+  position: absolute;
+  background: none;
+  border:none
+}
+
+.list-wrapper{
+  display:none;
+  background-color: #0a0021;
+}
+
+.project-container ul{
+  width: 100%;
+  
+  list-style: none;
+  border-bottom: thin solid #1f0852;
+}
+
+.list-wrapper img{
+  width: 100%;
+}
+
+.list-wrapper a{
+  color: white;
+}
+
+.list-wrapper li{
+  padding: 15px;
+  color: white;
+  text-indent: 1em;
+  font-size: 1.1em;
+}
+
+.list-wrapper li:last-child{
+  
+  border-top: thin solid #1f0852;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-wrapper li:hover{
+  transition: .4s ease;
+  background-color: #1f0852;
+}
+
+.menu-inactive::after{
+  content: '\21E3';
+  font-size: larger;
+  color: #a3ede4;
+}
+
+.menu-active::after{
+  content: '\21E1';
+  font-size: larger;
+  color: #ff4f4f;
+}
+
+.list-wrapper p{
+  width: 100%;
+  display: none;
+
+  color: white;
+  text-align: left;
+  font-size: .9em;
+}
+
+/** Mobile Portrait **/
+@media screen and (min-width: 0px) and (max-width: 568px){
+  #project-wrapper{
+    flex-direction: column; 
+  }
+
+  #middle-proj{
+    border: none;
+  }
+
+  .project-container{
+    border-top: 2px solid #1f0852;
+    border-bottom: 2px solid #1f0852;
+    border-right: none;
+    border-left: none;
+  }
+
+  #particles{
+    width: 100%;
+    height: 300vh;
+  }
+}
+/** Mobile Landscape **/
+@media screen and (min-width: 568px) and (max-width: 1023px){
+  #project-wrapper{
+    flex-direction: column;
+  }
+
+  #middle-proj{
+    border: none;
+  }
+
+  .project-container{
+    height: auto;
+    border-top: 2px solid #1f0852;
+    border-bottom: 2px solid #1f0852; 
+    border-right: none;
+    border-left: none;
+  }
+
+  .project-icon {
+    width: 40%;
+    margin: 15% auto auto auto;
+  }
+
+}
